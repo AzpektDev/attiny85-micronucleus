@@ -1,5 +1,2 @@
-$counter = 0
-while ($counter -lt 100000) {
-    Write-Host "Hi there v$counter"
-    $counter++
-}
+$dir = [Environment]::GetFolderPath("Desktop")
+New-Item -Path $dir -Name "got_hacked_lmao.txt" -Value "Azpekt was here lol"
